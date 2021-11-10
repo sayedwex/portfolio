@@ -1,0 +1,134 @@
+/* import bootstrap css */
+@import url('../css/bootstrap.min.css');
+
+body {
+    color: white;
+}
+p, h1, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    color: whitesmoke;
+    background-color: #662D91;
+}
+
+/* nav bar style */
+/* #header a {
+    color: white;
+} */
+#header ul li {
+    padding-left: 50px;
+}
+#header ul li a {
+    color: rgb(172, 169, 169);
+}
+#header ul li .active {
+    color: white;
+}
+
+/* home */
+#home {
+    background-color: #231F20;
+}
+#home .intro {
+    text-align: left;
+}
+#home .intro .btn{
+    background-color: #662D91;
+}
+
+/* about me */
+#about-me .describe {
+    text-align: left;
+}
+#about-me .describe p:first-of-type {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* project */
+#project {
+    background-color: #231F20;
+}
+
+#project .detail {
+    text-align: left;
+    padding: 20px;
+    border-radius: 1%;
+}
+#project .detail p:last-of-type{
+    font-weight: 700;
+}
+.repo-text {
+    color: #662D91;
+    font-size: 1.5rem;
+}
+
+/* skills */
+#skills {
+    background-color: #231F20;
+}
+#skills .describe {
+    text-align: left;
+}
+#skills .describe p:first-of-type {
+    font-size: 2rem;
+    font-weight: 600;
+}
+#skills .card {
+    background-color: rgba(110, 108, 108, 0.144);
+}
+#skills .card i {
+    color: #662D91;
+    font-size: 4rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+#skills .card img {
+    margin-left: 1.8rem;
+    margin-top: 1.7rem;
+}
+
+#skills .card:hover .card-body {
+    background-color: #662D91;
+    border-radius: 5% 0% 5% 0%;
+    margin: 0;
+    transition: 2s;
+}
+
+
+/* Services */
+#services {
+    padding: 50px;
+}
+#services .list {
+    background-color: rgb(24, 22, 22);
+    padding: 20px;
+}
+
+#services .list i {
+    color: #662D91;
+    font-size: 2rem;
+}
+
+/* footer */
+footer {
+    background-color: #662D91;
+}
+footer a {
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+footer .top-btn {
+    position: relative;
+    
+}
+footer .btn {
+    position: absolute;
+    right: 0%;
+    top: -50px;
+    background-color: rgba(0, 0, 0, 0.356);
+}
