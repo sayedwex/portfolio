@@ -1,0 +1,36 @@
+li a:hover {
+  background-color: white;
+}
+li a:hover svg {
+  fill: black;
+}
+
+li h4 {
+  color: white;
+}
+li:hover h4 {
+  color: black;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+.card {
+  background-color: black;
+}
+.card:hover {
+  background-color: white;
+  transition: 0.8s;
+}
+.card:hover a {
+  color: black;
+}
+
+button a {
+  color: #5A5A5A;;
+}
+
+button:hover a {
+  color: white;
+}
